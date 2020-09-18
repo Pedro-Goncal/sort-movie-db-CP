@@ -1,0 +1,52 @@
+#movies-list {
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+ }
+ 
+ #movies-list td, #movies-list th {
+   border: 1px solid #ddd;
+   padding: 8px;
+ }
+ 
+ #movies-list tr:nth-child(even){background-color: #f2f2f2;}
+ 
+ #movies-list tr:hover {background-color: #ddd;}
+ 
+ #movies-list th {
+   padding-top: 12px;
+   padding-bottom: 12px;
+   text-align: left;
+   background-color: #F5C518;
+   color: #000;
+ }
+
+
+
+.btn {
+   margin: 20px 5px;
+   padding: 5px;
+   border: none;
+   background-color: #555555;
+   color: #fff;
+   transition-duration: 0.1s;
+   cursor: grab;
+   border-radius: 1px;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover {
+   transform: translateY(-3px);
+   background-color: #F5C518;
+   color: rgb(0, 0, 0);
+ }
+
+ .btn::after {
+   transform: scalex(1) scaleY(1.6);
+ }
+   
+ 
+ .btn:active {
+   transform: translateY(-2px) scale(.99);
+   cursor: grabbing;
+ }
